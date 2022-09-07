@@ -1,0 +1,36 @@
+
+button {
+    background-color: rgb(29, 144, 186);
+    border-radius: 9px;
+    border: none;
+    margin-top: 15px;
+    margin-left: 10px;
+    width: 100px; 
+    color: white;
+    font-size: larger;
+    box-shadow: 3px 3px 19px rgb(21, 149, 180);
+    
+}
+
+button:active{
+    transition:ease-in-out 0.1s;
+    box-shadow: inset 3px 3px 4px black;
+}
+table{
+    border-collapse: collapse;
+    background-color: brown;
+    font-size: medium;
+    margin: 5px;
+    border-radius: 5px;
+    box-shadow: inset 1px 1px 19px ;
+    box-shadow:  1px 1px 32px;
+}
+
+th,td {
+    padding:30px;
+    box-shadow: inset 1px 1px 3px;
+    z-index: -1;
+    font-size: larger;
+    font-family:sans-serif;
+    text-transform: capitalize;
+}
